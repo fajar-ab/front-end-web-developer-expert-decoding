@@ -1,17 +1,42 @@
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr 2fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* style pendukung */
 .wrapper div {
-  border: 2px dotted slategray;
-  padding: 15px;
-  background-color: white;
+  padding: 32px;
+  border: 1px solid slategray;
 }
 
-.wrapper {
-  padding: 8px;
-  background-color: bisque;
-  border: 2px dotted slategray;
+/* pewarnaan */
+.box1,
+.box4 {
+  background-color: mediumaquamarine;
+}
+
+.box2,
+.box6 {
+  background-color: steelblue;
+}
+
+.box3,
+.box5 {
+  background-color: gold;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
