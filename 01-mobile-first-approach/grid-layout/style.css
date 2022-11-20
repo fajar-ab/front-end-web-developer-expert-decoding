@@ -1,0 +1,8 @@
+.wrapper {
+  display: grid;
+}
+
+.wrapper div {
+  border: 2px dotted slategray;
+  padding: 15px;
+}
