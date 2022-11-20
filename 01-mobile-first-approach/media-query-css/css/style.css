@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  background-color: orange;
+  text-align: center;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  main {
+    background-color: aqua;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  main {
+    background-color: blueviolet;
+  }
+}
