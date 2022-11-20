@@ -1,10 +1,17 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 200px 100px 200px;
-  grid-template-rows: 50px 100px;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
+/* style pendukung */
 .wrapper div {
   border: 2px dotted slategray;
   padding: 15px;
+  background-color: white;
+}
+
+.wrapper {
+  padding: 8px;
+  background-color: bisque;
+  border: 2px dotted slategray;
 }
