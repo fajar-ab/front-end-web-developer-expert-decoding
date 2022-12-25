@@ -1,0 +1,58 @@
+html,
+body,
+main {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#drawer {
+  width: 250px;
+  height: 100%;
+  position: absolute;
+
+  /* menyembunyikan #drawer -250px (sesuai dengan ukuran lebar drawer) ke kiri */
+  transform: translate(-250px, 0);
+  transition: transform 0.3s ease-in-out;
+  background-color: #111;
+}
+
+#drawer.open {
+  transform: translate(0, 0);
+}
+
+/* styling pendukung */
+
+main {
+  padding: 16px;
+}
+
+#drawer ul {
+  list-style-type: none;
+  padding: 0 16px;
+}
+
+#drawer li {
+  padding: 5px 0px;
+}
+
+#drawer a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+#hamburger {
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+}
