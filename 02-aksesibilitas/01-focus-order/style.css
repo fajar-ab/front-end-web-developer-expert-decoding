@@ -1,0 +1,44 @@
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.list__item {
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  flex-grow: 1;
+  width: 0;
+}
+
+.list__item:focus {
+  background-color: antiquewhite;
+}
+
+.list__item--1 {
+  order: 3;
+}
+.list__item--2 {
+  order: 1;
+}
+.list__item--3 {
+  order: 2;
+}
+.list__item--4 {
+  order: 2;
+}
+.list__item--5 {
+  order: 1;
+}
+.list__item--6 {
+  order: 3;
+}
